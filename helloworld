@@ -1,0 +1,7 @@
+- hosts: localhost
+
+  tasks: 
+
+  - name: debug: 
+    ansible.builtin.debug: 
+      msg: "Hello {{ person }}"
