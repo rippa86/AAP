@@ -2,6 +2,6 @@
 
   tasks: 
 
-  - name: debug: 
+  - name: debug
     ansible.builtin.debug: 
       msg: "Hello {{ person }}"
